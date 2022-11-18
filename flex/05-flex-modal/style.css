@@ -16,19 +16,41 @@ body {
 }
 
 .modal {
+  /* border: 1px solid peru; */
   background: white;
   width: 480px;
+  padding: 10px 10px 10px 0px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  text-align: left;
+}
+
+.modal .left,
+.modal .right {
+  /* border: 1px solid peru; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  /* border: 1px solid peru; */
+  font-weight: bolder;
+  font-size: larger;
+  flex-shrink: 0;
+  margin-bottom: 5px;
 }
 
 .icon {
+  /* border: 1px solid peru; */
+  flex-shrink: 0;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
   background: lavender;
   width: 42px;
   height: 42px;
+  margin: 0px 10px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -36,6 +58,7 @@ body {
 }
 
 .close-button {
+  /* border: 1px solid peru; */
   background: #eee;
   border-radius: 50%;
   color: #888;
@@ -46,20 +69,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
 
 button {
+  /* border: 1px solid peru; */
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 button.continue {
+  /* border: 1px solid peru; */
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
 }
 
 button.cancel {
+  /* border: 1px solid peru; */
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
